@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@gptscript-ai/gptscript": "^0.9.5",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "g4f": "^1.4.6",
+    "gpti": "^2.1.7",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.7",
+    "regex": "^4.4.0",
+    "uniqid": "^5.4.0"
+  },
+  "version": "1.0.0",
+  "description": "To install dependencies:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

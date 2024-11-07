@@ -1,0 +1,11 @@
+tools: sys.write, sys.read, sys.download, sys.find
+tools: github.com/gptscript-ai/browser
+model: gpt-3.5-turbo
+args: url: Link to the article or page
+args: dir: Directory to save the created files to
+
+
+
+1. Browse to ${url} amd read the page contents
+2. Create a tdlr text version of it for an Instagram reel or a tiktok video.max 100 words and no emojis
+3. Split the text into 3 parts,save the texts to "${dir}/story-${INDEX}.txt"
